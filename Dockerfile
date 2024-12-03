@@ -8,8 +8,10 @@ RUN apt-get update \
 # Use a non-root user for better security
 RUN useradd --create-home --user-group --shell $(which bash) smallweb
 
+ARG SMALLWEB_VERSION=0.17.10
+
 # Combine RUN commands to reduce layers and use curl instead of apt-get for installation
-RUN curl -fsSL "https://install.smallweb.run?v=0.17.9&target_dir=/usr/local/bin" | sh \
+RUN curl -fsSL "https://install.smallweb.run?v=${SMALLWEB_VERSION}&target_dir=/usr/local/bin" | sh \
     && chmod +x /usr/local/bin/smallweb
 
 # Switch to non-root user
