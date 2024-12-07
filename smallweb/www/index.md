@@ -1,10 +1,10 @@
 # Smallweb Live Demo :)
 
-This is a public demo instance of [smallweb](https://smallweb.run) running on fly.io.
+This is a public shared demo instance of [smallweb](https://smallweb.run) running on fly.io.
 
 > **⚠️ Do not use this instance for anything important.**
 >
-> The content of this instance will be reset anytime I feel like it. (Because anyone can change it! Was that said already?)
+> The content of this instance will be reset anytime I feel like it.
 > Also Since this instance is shared, you should not under any circoomstance put credentials in there!
 
 ## Usage

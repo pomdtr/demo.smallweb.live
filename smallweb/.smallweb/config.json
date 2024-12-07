@@ -2,5 +2,9 @@
     "domain": "smallweb.live",
     "customDomains": {
         "smallweb-live.fly.dev": "www"
-    }
+    },
+    "adminApps": [
+        "cli",
+        "vscode"
+    ]
 }
