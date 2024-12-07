@@ -37,4 +37,4 @@ WORKDIR /home/smallweb
 EXPOSE 7777
 
 # Set entrypoint
-ENTRYPOINT ["/usr/local/bin/smallweb", "up"]
+ENTRYPOINT ["/usr/local/bin/smallweb", "up", "--cron"]
