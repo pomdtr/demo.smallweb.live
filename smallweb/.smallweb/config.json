@@ -5,6 +5,6 @@
     },
     "adminApps": [
         "cli",
-        "editor"
+        "vscode"
     ]
 }

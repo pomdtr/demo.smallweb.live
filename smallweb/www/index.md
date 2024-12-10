@@ -9,7 +9,7 @@ This is a public shared demo instance of [smallweb](https://smallweb.run) runnin
 
 ## Usage
 
-Head to the editor at [editor.smallweb.live](https://editor.smallweb.live) to edit existing websites.
+Head to the editor at [vscode.smallweb.live](https://vscode.smallweb.live) to edit existing websites.
 
 To create you own websites, just create a file at `/<your-name>/main.ts`, and paste the following code:
 
