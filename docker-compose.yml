@@ -1,0 +1,9 @@
+services:
+  smallweb:
+    build: .
+    ports:
+      - "7777:7777"
+    volumes:
+      - ./smallweb:/smallweb
+    environment:
+      - SMALLWEB_DOMAIN=smallweb.localhost
