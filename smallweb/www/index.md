@@ -9,16 +9,18 @@ This is a public shared demo instance of [smallweb](https://smallweb.run) runnin
 
 ## Usage
 
-Head to the editor at [vscode.smallweb.live](https://vscode.smallweb.live) to edit existing websites.
+Head to the editor at [editor.smallweb.live](https://editor.smallweb.live) to edit existing websites.
 
 To create you own websites, just create a file at `/<your-name>/main.ts`, and paste the following code:
 
 ```ts
-export default {
-  fetch() {
-    return new Response("Hello world!")
-  }
-}
+import { Hono } from 'npm:hono'
+
+const app = new Hono()
+
+app.get('/', (c) => c.text('Hello from smallweb!'))
+
+export default app
 ```
 
 Then go to `https://<your-name>.smallweb.live`, and see your website live!
