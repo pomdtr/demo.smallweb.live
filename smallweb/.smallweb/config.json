@@ -1,7 +1,8 @@
 {
     "domain": "smallweb.live",
     "customDomains": {
-        "smallweb-live.fly.dev": "www"
+        "smallweb-live.fly.dev": "www",
+        "smallweb.localhost": "*"
     },
     "adminApps": [
         "cli",
