@@ -1,4 +1,8 @@
-# Smallweb Live Demo :)
+---
+title: Smallweb Playground
+---
+
+# Smallweb Playground
 
 This is a public shared demo instance of [smallweb](https://smallweb.run) running on fly.io.
 
