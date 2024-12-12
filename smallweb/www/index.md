@@ -13,7 +13,7 @@ This is a public shared demo instance of [smallweb](https://smallweb.run) runnin
 
 ## Usage
 
-Head to the editor at [vscode.smallweb.live](https://vscode.smallweb.live) to edit existing websites.
+Head to the editor at [vscode.demo.smallweb.live](https://vscode.demo.smallweb.live) to edit existing websites.
 
 To create you own websites, just create a file at `/<your-name>/main.ts`, and paste the following code:
 
@@ -27,22 +27,22 @@ app.get('/', (c) => c.text('Hello from smallweb!'))
 export default app
 ```
 
-Then go to `https://<your-name>.smallweb.live`, and see your website live!
+Then go to `https://<your-name>.demo.smallweb.live`, and see your website live!
 
-You can also access the smallweb cli at [cli.smallweb.live](https://cli.smallweb.live). Go to <https://cli.smallweb.live/ls?json> to run `smallweb ls --json` and see the list of apps in this instance.
+You can also access the smallweb cli at [cli.smallweb.live](https://cli.demo.smallweb.live). Go to <https://cli.demo.smallweb.live/ls?json> to run `smallweb ls --json` and see the list of apps in this instance.
 
 The `www`, `cli` and `vscode` apps are readonly, but you can edit all the other apps.
 
 ## Example apps
 
-- [excalidraw.smallweb.live](https://excalidraw.smallweb.live) - sources in the `/smallblog` folder
-- [smallblog.smallweb.live](https://smallblog.smallweb.live) - sources in the `/excalidraw` folder
+- [excalidraw.smallweb.live](https://excalidraw.demo.smallweb.live) - sources in the `/smallblog` folder
+- [smallblog.smallweb.live](https://smallblog.demo.smallweb.live) - sources in the `/excalidraw` folder
 
 If you want to "fork" them, just copy paste the folder.
 
 ## View Source
 
-Checkout the github repository at [github.smallweb.live](https://github.smallweb.live).
+Checkout the github repository at [github.demo.smallweb.live](https://github.demo.smallweb.live).
 
 ## Design
 
