@@ -29,7 +29,7 @@ export default app
 
 Then go to `https://<your-name>.demo.smallweb.live`, and see your website live!
 
-You can also access the smallweb cli at [cli.smallweb.live](https://cli.demo.smallweb.live). Go to <https://cli.demo.smallweb.live/ls?json> to run `smallweb ls --json` and see the list of apps in this instance.
+You can also access the smallweb cli at [cli.demo.smallweb.live](https://cli.demo.smallweb.live). Go to <https://cli.demo.smallweb.live/ls?json> to run `smallweb ls --json` and see the list of apps in this instance.
 
 The `www`, `cli` and `vscode` apps are readonly, but you can edit all the other apps.
 
@@ -39,10 +39,6 @@ The `www`, `cli` and `vscode` apps are readonly, but you can edit all the other 
 - [smallblog.smallweb.live](https://smallblog.demo.smallweb.live) - sources in the `/excalidraw` folder
 
 If you want to "fork" them, just copy paste the folder.
-
-## View Source
-
-Checkout the github repository at [github.demo.smallweb.live](https://github.demo.smallweb.live).
 
 ## Design
 
