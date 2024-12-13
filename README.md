@@ -1,4 +1,4 @@
-# smallweb.live
+# demo.smallweb.live
 
 This repo contains the code of [smallweb.live](https://smallweb.live), the public smallweb instance.
 
