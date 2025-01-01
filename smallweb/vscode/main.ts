@@ -5,7 +5,6 @@ const vscode = new VSCode({
     readOnly: [
         "/.smallweb/*",
         "/vscode/*",
-        "/cli/*",
         "/www/*",
         "/excalidraw/main.ts",
         "/smallblog/main.ts",

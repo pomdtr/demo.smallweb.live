@@ -1,15 +1,15 @@
 ---
 title: Smallweb Playground
+favicon: smallweb.svg
 ---
 
 # Smallweb Playground
 
-This is a public shared demo instance of [smallweb](https://smallweb.run) running on fly.io.
-
-> **⚠️ Do not use this instance for anything important.**
->
+> [!WARNING]
 > The content of this instance will be reset anytime I feel like it.
-> Also Since this instance is shared, you should not under any circoomstance put credentials in there!
+> Since this instance is shared, you should not under any circoomstance put credentials in there!
+
+This is a public shared demo instance of [smallweb](https://smallweb.run) running on fly.io.
 
 ## Usage
 
@@ -29,9 +29,7 @@ export default app
 
 Then go to `https://<your-name>.demo.smallweb.live`, and see your website live!
 
-You can also access the smallweb cli at [cli.demo.smallweb.live](https://cli.demo.smallweb.live). Go to <https://cli.demo.smallweb.live/ls?json> to run `smallweb ls --json` and see the list of apps in this instance.
-
-The `www`, `cli` and `vscode` apps are readonly, but you can edit all the other apps.
+The `www`, `smallblog`, `excalidraw` and `vscode` apps are readonly, but you can edit all the other apps.
 
 ## Example apps
 

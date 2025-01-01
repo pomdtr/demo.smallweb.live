@@ -5,7 +5,7 @@ RUN apt-get update \
     && apt-get install -y curl \
     && rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
-ARG SMALLWEB_VERSION=0.20.0-rc.1
+ARG SMALLWEB_VERSION=0.20.0-rc.2
 
 # Combine RUN commands to reduce layers and use curl instead of apt-get for installation
 RUN curl -fsSL "https://install.smallweb.run?v=${SMALLWEB_VERSION}&target_dir=/usr/local/bin" | sh \
