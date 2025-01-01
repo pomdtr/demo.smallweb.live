@@ -7,6 +7,8 @@ const vscode = new VSCode({
         "/vscode/*",
         "/cli/*",
         "/www/*",
+        "/excalidraw/main.ts",
+        "/smallblog/main.ts",
     ]
 });
 
