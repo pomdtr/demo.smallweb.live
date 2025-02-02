@@ -16,4 +16,5 @@ EXPOSE 8080 2222
 
 # Set entrypoint
 ENV SMALLWEB_DIR "/volume/smallweb"
+WORKDIR $SMALLWEB_DIR
 ENTRYPOINT ["/usr/local/bin/smallweb", "up", "--cron", "--http-addr", "0.0.0.0:8080", "--ssh-addr", "0.0.0.0:2222", "--ssh-host-key", "/volume/ssh/ssh_host_ed25519_key"]
