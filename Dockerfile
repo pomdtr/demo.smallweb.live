@@ -15,4 +15,5 @@ RUN curl -fsSL "https://install.smallweb.run?v=${SMALLWEB_VERSION}&target_dir=/u
 EXPOSE 8080 2222
 
 # Set entrypoint
-ENTRYPOINT ["/usr/local/bin/smallweb", "up", "--cron", "--http-addr", "0.0.0.0:8080", "--ssh-addr", "0.0.0.0:2222"]
+ENV SMALLWEB_DIR "/volume/smallweb"
+ENTRYPOINT ["/usr/local/bin/smallweb", "up", "--cron", "--http-addr", "0.0.0.0:8080", "--ssh-addr", "0.0.0.0:2222", "--ssh-host-key", "/volume/ssh/smallweb"]
