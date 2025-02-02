@@ -1,23 +1,31 @@
-# demo.smallweb.live
+# smalleb on fly.io
 
-This repo contains the code of [demo.smallweb.live](https://demo.smallweb.live), the public smallweb instance.
+## Setup
 
-## Using this instance
+Make sure that the fly cli is installed and you are logged in (`fly auth login`).
 
-Make sure that the fly cli is installed and you are logged in.
+Copy the `templates/fly.toml` to the root of the project, and update the `app`, `primary_region`, and `domains` fields.
 
 ```sh
+# create the app
 fly launch --no-deploy
+
+# create the smallweb volumes
+fly volumes create smallweb_data
+
+# create the required certificates
 fly certs create '<your-domain>'
 fly certs create '*.<your-domain>'
 ```
 
-Setup you DNS records to point to the fly.io load balancer.
-
-Then replace `demo.smallweb.live` by your domain in the [smallweb config](./smallweb/.smallweb/config.json).
-
-Finally, deploy the app.
+Then, setup you DNS records to point to the fly.io load balancer.
 
 ```sh
+
+# deploy the app
 fly deploy
+
+# Connect to the app, then initialize the smallweb directory
+fly ssh console
+smallweb init
 ```
